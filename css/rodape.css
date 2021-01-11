@@ -1,0 +1,16 @@
+/* Rodapé */
+.rodape {
+    background: var(--cor_marrom);
+    height: 40px;
+    text-align: center;
+}
+
+.texto_rodape {
+    color:  var(--cor_bege);
+    font-size: 15px;
+    padding-top: 7px;
+}
+
+.texto_rodape a {
+    color: inherit;
+}

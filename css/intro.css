@@ -1,0 +1,10 @@
+
+/* Introdução */
+.fonte-texto_principal {
+    font-family: 'Dancing Script', sans-serif;
+}
+
+p {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 30px;
+}

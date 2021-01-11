@@ -1,0 +1,36 @@
+#apresentacao {
+    background-color: var(--cor_verde);
+}
+
+.texto_apresenta {
+    justify-content: center;
+    border-bottom: 2px solid var(--cor_branco);
+}
+
+.titulo_quemsomos {
+    color: var(--cor_branco);
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 60px;
+    padding: 2rem;
+}
+
+.texto_quemsomos {
+    color: var(--cor_branco);
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 425px) {
+    .texto_quemsomos {
+        font-size: 20px;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+@media screen and (min-width: 426px) {
+    .texto_quemsomos {
+        padding-left: 7rem;
+        padding-right: 7rem;
+    }
+}

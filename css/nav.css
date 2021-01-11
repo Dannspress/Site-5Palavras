@@ -1,0 +1,49 @@
+:root {
+    --cor_bege: #E7DDC2;
+    --cor_branco: #FDFDFD;
+    --cor_marrom: #554530;
+    --cor_queimado: #d1c8b1;
+    --cor_verde: #718A41;
+    --cor_vermelha: #973532;
+}
+
+/* Bege */
+.container-fluid img{
+    max-height: 200px;
+    max-width: 200px;
+}
+
+.cor-marrom {
+    color: var(--cor_marrom);
+}
+
+.bg-bege {
+    background-color: var(--cor_bege);
+}
+
+.fonte-titulo {
+    font-family: 'Dancing Script', sans-serif;
+}
+
+.nav-link:hover, .nav-link.active {
+    border-bottom: 1px solid var(--cor_marrom);
+}
+
+.dropdown-menu {
+    background-color: var(--cor_marrom);
+    border-color: var(--cor_marrom);
+}
+
+.dropdown-item {
+    color: var(--cor_branco);
+}
+
+.dropdown-item:hover {
+    color: var(--cor_branco);
+    background-color: var(--cor_marrom);
+    border-bottom: 1px solid var(--cor_branco);
+}
+
+.borda_nav {
+    border-bottom: 1px solid var(--cor_marrom);
+}

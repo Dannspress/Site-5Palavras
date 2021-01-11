@@ -1,0 +1,10 @@
+/* Carousel */
+.slide-carousel {
+    height: 650px;
+    object-fit: cover;
+}
+
+.fonte-slide {
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 75px;
+}

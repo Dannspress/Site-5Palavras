@@ -1,0 +1,38 @@
+/* Cards */
+.cor-botao {
+    background-color: var(--cor_marrom);
+    color: var(--cor_bege);
+}
+
+.cor-botao:hover {
+    background-color: var(--cor_marrom);
+    color: var(--cor_bege);
+}
+
+.borda_card {
+    border-color: none;
+    margin-bottom: 15px;
+}
+
+.card-largura {
+    max-width: 25rem;
+}
+
+#cards {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    #cards {
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .card-img-top {
+        display: none;
+    }
+}

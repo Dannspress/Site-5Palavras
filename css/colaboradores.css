@@ -1,0 +1,75 @@
+.titulo_colaboradores {
+    color: var(--cor_marrom);
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 60px;
+    padding-top: 4rem;
+    text-align: center;
+
+}
+
+.galera {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10rem;
+}
+
+.colaboradores {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#colaboradores p {
+    color: var(--cor_marrom);
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 30px;
+    padding-bottom: 5rem;
+    text-align: center;
+}
+
+.colaboradores img {
+    background-position: center;
+    border-radius: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    margin: 0 auto;
+    width: 300px;
+}
+
+.nome {
+    color: var(--cor_marrom);
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.descricao {
+    color: var(--cor_marrom);
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 20px;
+    text-transform: lowercase;
+}
+
+@media screen and (max-width: 768px) {
+    .descricao {
+        font-size: 18px;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .galera {
+        flex-direction: column;
+    }
+
+    .colaboradores {
+        padding-bottom: 5rem;
+    }
+
+    #colaboradores p {
+        font-size: 25px;
+    }
+
+}
